@@ -5,7 +5,7 @@
 var arr = [];
 var SNT;
 function dayso() {
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 5; i++) {
         SNT = Number(prompt("Nhập số bạn muốn kiểm tra số nguyên tố: "));
         arr.push(SNT)   
     }
@@ -13,7 +13,7 @@ function dayso() {
 }
 arr = dayso();
 console.log(arr);
-for (let j = 3; j >= 0; j--) {
+for (let j = 4; j >= 0; j--) {
     let count = 0;
     console.log(arr);
     if (arr[j] < 2) {
