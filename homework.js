@@ -3,23 +3,23 @@
     //Output: 2, 5, 7
 
 var arr = [];
-var SNT;
+var SoNguyenTo;
 function dayso() {
-    for (let i = 0; i < 5; i++) {
-        SNT = Number(prompt("Nhập số bạn muốn kiểm tra số nguyên tố: "));
-        arr.push(SNT)   
+    for (var i = 0; i < 5; i++) {
+        SoNguyenTo = Number(prompt("Nhập số bạn muốn kiểm tra số nguyên tố: "));
+        arr.push(SoNguyenTo)   
     }
     return arr;
 }
 arr = dayso();
 console.log(arr);
-for (let j = 4; j >= 0; j--) {
-    let count = 0;
+for (var j = 4; j >= 0; j--) {
+    var count = 0;
     console.log(arr);
     if (arr[j] < 2) {
         arr.splice(j, 1);
     } else {
-        for (let i = 2; i < arr[j]; i++) {
+        for (var i = 2; i < arr[j]; i++) {
             if (arr[j] % i == 0) {
                 count++ ;
             }
