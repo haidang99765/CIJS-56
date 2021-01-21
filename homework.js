@@ -36,3 +36,6 @@ alert(arr)
 //biến count lên 1 lần và sẽ splice đi giá trị của arr[3], và đồng nghĩa số đó không là số nguyên tố
 //ngược lại nếu giá trị arr[j] không chia hết cho i = 2 thì biến count sẽ không tăng và cũng sẽ không splice giá trị đó, 
 //và số đó là số nguyên tố
+
+
+//B2 em chưa biết làm ạ :((
