@@ -3,10 +3,9 @@
     //Output: 2, 5, 7
 
 var arr = [];
-var SoNguyenTo;
 function dayso() {
     for (var i = 0; i < 5; i++) {
-        SoNguyenTo = Number(prompt("Nhập số bạn muốn kiểm tra số nguyên tố: "));
+        var SoNguyenTo = Number(prompt("Nhập số bạn muốn kiểm tra số nguyên tố: "));
         arr.push(SoNguyenTo)   
     }
     return arr;
